@@ -35,6 +35,9 @@
                 <div class="flex flex-col md:flex-row justify-between items-center mb-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-4 md:mb-0">Product List</h3>
                     <div class="flex space-x-3">
+                        <a href="{{ url('/admin/custom-design-types/edit') }}" class="bg-white border border-gray-300 text-gray-700 font-bold py-2 px-4 rounded-lg shadow-sm hover:bg-gray-50 transition-colors">
+                            Update Available Types
+                        </a>
                         <button @click="openModal(true)" class="bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-indigo-700 transition-colors flex items-center space-x-2">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
                         <span>Add New Product</span>
